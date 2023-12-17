@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  margin: auto;
+  max-width: 90%;
+}
+.input_form {
+  display: flex;
+  gap: 20px;
+}
+input {
+  margin-left: 3px;
+}
+.count_field {
+  text-align: right;
+  padding: 2px 5px;
+}
+.key_field, .value_field {
+  padding: 0 30px;
+  cursor: pointer;
+}
+.delete_field {
+  text-align: center;
+}
+th {
+ background-color: rgb(25, 208, 62);
+ color: white;
+ padding: 3px 10px;
+ letter-spacing: 1px;
+ font-weight: 400;
+}
+label {
+gap: 50px; 
+}
+.delete_button, .clear_button, .add_button{
+  cursor: pointer;
+}
+.delete_field {
+  background-color: rgb(36, 228, 183);
+  color: white;
+}
+.count_field, .key_field, .value_field {
+  font-size: 16px;
+}
